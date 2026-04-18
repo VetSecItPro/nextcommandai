@@ -4,9 +4,10 @@ import { useEffect, useState } from "react";
 import Monogram from "./Monogram";
 
 const links = [
-  { href: "#capabilities", label: "Capabilities" },
-  { href: "#served", label: "Who We Serve" },
-  { href: "#approach", label: "Approach" },
+  { href: "/#capabilities", label: "Capabilities" },
+  { href: "/#served", label: "Who We Serve" },
+  { href: "/about", label: "Founder" },
+  { href: "/#approach", label: "Approach" },
 ];
 
 export default function Nav() {
@@ -28,7 +29,7 @@ export default function Nav() {
       }`}
     >
       <div className="mx-auto flex h-16 max-w-[1400px] items-center justify-between px-6 md:h-20 md:px-10">
-        <a href="#top" className="group flex items-center gap-3 text-parchment">
+        <a href="/" className="group flex items-center gap-3 text-parchment">
           <Monogram className="h-7 w-7 text-brass transition-colors group-hover:text-parchment" />
           <span className="hidden text-[0.72rem] uppercase tracking-[0.28em] text-parchment-dim sm:block">
             Next Command AI
@@ -46,7 +47,7 @@ export default function Nav() {
           ))}
         </nav>
         <a
-          href="#contact"
+          href="/#contact"
           className="group relative inline-flex items-center gap-2 border border-hairline-strong px-4 py-2.5 text-[0.72rem] uppercase tracking-[0.22em] text-parchment transition-colors hover:border-brass hover:text-brass md:px-5"
         >
           <span>Request a Briefing</span>
