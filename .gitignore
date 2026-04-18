@@ -36,6 +36,11 @@ yarn-error.log*
 # vercel
 .vercel
 
+# playwright-mcp + screenshots
+/.playwright-mcp
+/ncai-preview-*.jpeg
+/ncai-preview-*.png
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
