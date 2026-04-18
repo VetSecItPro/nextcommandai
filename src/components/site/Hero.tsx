@@ -70,10 +70,6 @@ export default function Hero() {
         </div>
       </div>
 
-      <div className="pointer-events-none absolute bottom-8 right-6 z-10 flex items-center gap-3 md:right-10">
-        <span className="eyebrow text-parchment-faint">Scroll</span>
-        <span className="h-12 w-px animate-pulse bg-gradient-to-b from-brass to-transparent" />
-      </div>
     </section>
   );
 }
