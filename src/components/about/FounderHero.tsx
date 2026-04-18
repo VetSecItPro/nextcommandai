@@ -31,11 +31,7 @@ export default function FounderHero() {
               sizes="(min-width: 768px) 560px, 100vw"
               className="object-cover"
             />
-            <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-ink/70 via-transparent to-transparent" />
-            <figcaption className="absolute inset-x-0 bottom-0 flex items-center justify-between px-6 pb-5">
-              <span className="eyebrow text-parchment">Portrait</span>
-              <span className="h-px w-16 bg-brass" />
-            </figcaption>
+            <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-ink/60 via-transparent to-transparent" />
           </figure>
         </Reveal>
       </div>
