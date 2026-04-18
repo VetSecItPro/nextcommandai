@@ -1,12 +1,12 @@
 "use client";
 
 import {
-  createElement,
   useEffect,
   useRef,
   useState,
   type CSSProperties,
   type ReactNode,
+  type Ref,
 } from "react";
 
 type AllowedTag =
@@ -69,14 +69,73 @@ export default function Reveal({
     ...style,
     ["--reveal-delay" as string]: `${delay}ms`,
   };
+  const classes = `reveal ${visible ? "is-visible" : ""} ${className}`.trim();
+  const elRef = ref as Ref<HTMLElement>;
 
-  return createElement(
-    as,
-    {
-      ref,
-      className: `reveal ${visible ? "is-visible" : ""} ${className}`,
-      style: mergedStyle,
-    },
-    children,
-  );
+  switch (as) {
+    case "section":
+      return (
+        <section ref={elRef} className={classes} style={mergedStyle}>
+          {children}
+        </section>
+      );
+    case "header":
+      return (
+        <header ref={elRef} className={classes} style={mergedStyle}>
+          {children}
+        </header>
+      );
+    case "footer":
+      return (
+        <footer ref={elRef} className={classes} style={mergedStyle}>
+          {children}
+        </footer>
+      );
+    case "article":
+      return (
+        <article ref={elRef} className={classes} style={mergedStyle}>
+          {children}
+        </article>
+      );
+    case "li":
+      return (
+        <li
+          ref={ref as Ref<HTMLLIElement>}
+          className={classes}
+          style={mergedStyle}
+        >
+          {children}
+        </li>
+      );
+    case "span":
+      return (
+        <span
+          ref={ref as Ref<HTMLSpanElement>}
+          className={classes}
+          style={mergedStyle}
+        >
+          {children}
+        </span>
+      );
+    case "p":
+      return (
+        <p
+          ref={ref as Ref<HTMLParagraphElement>}
+          className={classes}
+          style={mergedStyle}
+        >
+          {children}
+        </p>
+      );
+    default:
+      return (
+        <div
+          ref={ref as Ref<HTMLDivElement>}
+          className={classes}
+          style={mergedStyle}
+        >
+          {children}
+        </div>
+      );
+  }
 }
