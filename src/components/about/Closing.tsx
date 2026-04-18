@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Reveal from "@/components/site/Reveal";
 
 export default function Closing() {
@@ -24,15 +25,15 @@ export default function Closing() {
           </div>
         </Reveal>
         <Reveal delay={380}>
-          <a
+          <Link
             href="/#contact"
-            className="group mt-14 inline-flex items-center gap-3 bg-brass px-7 py-4 text-[0.78rem] uppercase tracking-[0.22em] text-ink transition-colors hover:bg-parchment"
+            className="group mt-14 inline-flex min-h-[52px] items-center gap-3 bg-brass px-7 py-4 text-[0.78rem] uppercase tracking-[0.22em] text-ink transition-colors hover:bg-parchment"
           >
             Request a Briefing
             <span aria-hidden className="transition-transform group-hover:translate-x-1">
               &rarr;
             </span>
-          </a>
+          </Link>
         </Reveal>
       </div>
     </section>

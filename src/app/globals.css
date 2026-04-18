@@ -34,11 +34,24 @@ body {
   color: var(--parchment);
 }
 
+html {
+  scroll-padding-top: 5rem;
+  color-scheme: dark;
+}
+
 body {
   font-family: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
   font-feature-settings: "ss01", "cv11";
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+}
+
+:focus-visible {
+  outline: none;
+  box-shadow:
+    0 0 0 2px var(--ink),
+    0 0 0 4px var(--brass);
+  border-radius: 2px;
 }
 
 ::selection {
@@ -56,7 +69,7 @@ body {
   font-family: var(--font-inter), ui-sans-serif, sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.22em;
-  font-size: 0.72rem;
+  font-size: clamp(0.78rem, 0.74rem + 0.2vw, 0.82rem);
   color: var(--brass);
   font-weight: 500;
 }

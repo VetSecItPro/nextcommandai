@@ -40,7 +40,11 @@ yarn-error.log*
 /.playwright-mcp
 /ncai-preview-*.jpeg
 /ncai-preview-*.png
+/audit-*.jpeg
+/audit-*.png
+/audit-*.json
 
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+.design-reports/

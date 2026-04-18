@@ -37,7 +37,7 @@ export default function Contact() {
           <div className="mt-12 space-y-6">
             <a
               href="mailto:contact@nextcommandai.com?subject=Briefing%20Request"
-              className="group inline-flex items-center gap-4 text-parchment transition-colors hover:text-brass"
+              className="group inline-flex min-h-[56px] flex-wrap items-center gap-4 py-2 text-parchment transition-colors hover:text-brass"
             >
               <span className="eyebrow text-parchment-faint">Direct</span>
               <span className="font-display text-[1.4rem] font-light md:text-[1.7rem]">

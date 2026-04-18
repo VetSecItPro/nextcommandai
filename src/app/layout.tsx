@@ -23,20 +23,16 @@ export const metadata: Metadata = {
   description:
     "Next Command AI Consulting, LLC is a veteran-owned consulting firm specializing in AI strategy, cybersecurity, and technology modernization for government agencies and prime contractors.",
   openGraph: {
-    title:
-      "Next Command AI Consulting | Secure AI Strategy & Cybersecurity",
+    title: "Next Command AI Consulting | Secure AI Strategy & Cybersecurity",
     description:
       "Veteran-owned consulting firm specializing in AI strategy, cybersecurity, and technology modernization for government agencies and prime contractors.",
     type: "website",
-    images: ["/hero.jpg"],
   },
   twitter: {
     card: "summary_large_image",
-    title:
-      "Next Command AI Consulting | Secure AI Strategy & Cybersecurity",
+    title: "Next Command AI Consulting | Secure AI Strategy & Cybersecurity",
     description:
       "Veteran-owned consulting firm specializing in AI strategy, cybersecurity, and technology modernization for government agencies and prime contractors.",
-    images: ["/hero.jpg"],
   },
 };
 
