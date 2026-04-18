@@ -42,6 +42,12 @@ export default function Reveal({
   useEffect(() => {
     const node = ref.current;
     if (!node) return;
+    const rect = node.getBoundingClientRect();
+    const inViewNow = rect.top < window.innerHeight && rect.bottom > 0;
+    if (inViewNow) {
+      setVisible(true);
+      if (once) return;
+    }
     const observer = new IntersectionObserver(
       (entries) => {
         for (const entry of entries) {

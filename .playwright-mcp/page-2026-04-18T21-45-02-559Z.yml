@@ -1,0 +1,161 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Next Command AI" [ref=e4] [cursor=pointer]:
+        - /url: "#top"
+        - img [ref=e5]
+        - generic [ref=e8]: Next Command AI
+      - navigation [ref=e9]:
+        - link "Capabilities" [ref=e10] [cursor=pointer]:
+          - /url: "#capabilities"
+        - link "Who We Serve" [ref=e11] [cursor=pointer]:
+          - /url: "#served"
+        - link "Approach" [ref=e12] [cursor=pointer]:
+          - /url: "#approach"
+      - link "Request a Briefing" [ref=e13] [cursor=pointer]:
+        - /url: "#contact"
+        - generic [ref=e14]: Request a Briefing
+        - generic [ref=e15]: →
+  - main [ref=e16]:
+    - generic [ref=e17]:
+      - generic [ref=e22]:
+        - paragraph [ref=e24]: Next Command AI Consulting, LLC
+        - heading "Secure AI, Cybersecurity & Technology Modernization." [level=1] [ref=e26]:
+          - text: Secure
+          - emphasis [ref=e27]: AI
+          - text: ","
+          - text: Cybersecurity &
+          - text: Technology Modernization.
+        - paragraph [ref=e31]: Next Command AI Consulting, LLC is a veteran-owned consulting firm specializing in AI strategy, cybersecurity, and technology modernization for government agencies and prime contractors.
+        - generic [ref=e33]:
+          - link "Request a Briefing" [ref=e34] [cursor=pointer]:
+            - /url: "#contact"
+            - text: Request a Briefing
+            - generic [ref=e35]: →
+          - link "Our Capabilities" [ref=e36] [cursor=pointer]:
+            - /url: "#capabilities"
+            - text: Our Capabilities
+      - generic:
+        - generic: Scroll
+    - generic [ref=e39]:
+      - generic [ref=e40]:
+        - paragraph [ref=e41]: Capabilities
+        - heading "Three disciplines, one command." [level=2] [ref=e42]:
+          - text: Three disciplines,
+          - emphasis [ref=e43]: one
+          - text: command.
+        - paragraph [ref=e44]: Every engagement is authored for the shape of the mission — not assembled from templates.
+      - list [ref=e45]:
+        - listitem [ref=e46]:
+          - article [ref=e47]:
+            - generic [ref=e48]: "01"
+            - heading "Secure AI" [level=3] [ref=e49]
+            - generic [ref=e50]:
+              - paragraph [ref=e51]: AI strategy with operational discipline.
+              - paragraph [ref=e52]: We help leaders adopt artificial intelligence without surrendering control — from mission framing and model selection to governance, safety review, and the guardrails required for classified and regulated environments.
+        - listitem [ref=e53]:
+          - article [ref=e54]:
+            - generic [ref=e55]: "02"
+            - heading "Cybersecurity" [level=3] [ref=e56]
+            - generic [ref=e57]:
+              - paragraph [ref=e58]: Posture hardened for adversaries, not checklists.
+              - paragraph [ref=e59]: Threat-informed architecture, zero-trust implementation, continuous monitoring, and incident response — engineered for organizations whose adversaries are deliberate, well-resourced, and patient.
+        - listitem [ref=e60]:
+          - article [ref=e61]:
+            - generic [ref=e62]: "03"
+            - heading "Technology Modernization" [level=3] [ref=e63]
+            - generic [ref=e64]:
+              - paragraph [ref=e65]: Legacy systems, reshaped for the decade ahead.
+              - paragraph [ref=e66]: Cloud migration, data platform re-architecture, and the careful sequencing of modernization programs so that capability grows while mission continuity is preserved.
+    - generic [ref=e68]:
+      - generic [ref=e69]:
+        - paragraph [ref=e70]: Who We Serve
+        - heading "Built for the institutions that carry the mission." [level=2] [ref=e71]:
+          - text: Built for the institutions that
+          - emphasis [ref=e72]: carry
+          - text: the mission.
+      - generic [ref=e73]:
+        - article [ref=e74]:
+          - generic [ref=e75]:
+            - paragraph [ref=e76]: Public Sector
+            - heading "Government Agencies" [level=3] [ref=e77]
+            - paragraph [ref=e78]: Supporting federal, defense, and civilian agencies charged with protecting national interests — where procurement discipline, accreditation pathways, and mission assurance are non-negotiable.
+        - article [ref=e79]:
+          - generic [ref=e80]:
+            - paragraph [ref=e81]: Private Sector
+            - heading "Prime Contractors" [level=3] [ref=e82]
+            - paragraph [ref=e83]: Partnering with primes delivering into defense, intelligence, and civil programs — augmenting program teams with practitioners who have held the mission on the government side.
+    - generic [ref=e85]:
+      - paragraph [ref=e87]: Our Approach
+      - blockquote [ref=e89]: “The advantage belongs to the side that sees first, decides first, and acts with the fewest regrets. Our craft is to put that advantage in the hands of the mission owner.”
+      - generic [ref=e90]:
+        - generic [ref=e92]:
+          - paragraph [ref=e93]: Veteran-Owned
+          - paragraph [ref=e94]: Founded and led by operators who served the mission first. Advice is grounded in accountability, not theater.
+        - generic [ref=e96]:
+          - paragraph [ref=e97]: Command-Grade Rigor
+          - paragraph [ref=e98]: Clarity of intent, discipline of execution, honesty in reporting — the standards a commander expects of a staff.
+        - generic [ref=e100]:
+          - paragraph [ref=e101]: Quiet Delivery
+          - paragraph [ref=e102]: Results that your program office can defend in a review, and your adversary will not notice until it is too late.
+    - generic [ref=e103]:
+      - generic:
+        - img
+      - generic [ref=e104]:
+        - generic [ref=e105]:
+          - paragraph [ref=e106]: Contact
+          - heading "Begin with a briefing." [level=2] [ref=e107]:
+            - text: Begin with a
+            - emphasis [ref=e108]: briefing
+            - text: .
+          - paragraph [ref=e109]: Share the outline of the mission. We will respond with a short, written read on what we believe a credible path looks like — and whether we are the right partner to walk it with you.
+          - generic [ref=e110]:
+            - link "Direct contact@nextcommandai.com" [ref=e111] [cursor=pointer]:
+              - /url: mailto:contact@nextcommandai.com?subject=Briefing%20Request
+              - generic [ref=e112]: Direct
+              - generic [ref=e113]: contact@nextcommandai.com
+            - generic [ref=e115]:
+              - generic [ref=e116]: Hours
+              - generic [ref=e117]: Responses within one business day, Mon-Fri, Central Time.
+        - generic [ref=e119]:
+          - paragraph [ref=e120]: By Appointment
+          - heading "Private consultations with the founding principals." [level=3] [ref=e121]
+          - list [ref=e122]:
+            - listitem [ref=e123]:
+              - generic [ref=e125]: Discovery. A focused conversation on mission, constraints, and the decision in front of you.
+            - listitem [ref=e126]:
+              - generic [ref=e128]: Read-back. A written assessment you can circulate inside your organization without editing.
+            - listitem [ref=e129]:
+              - generic [ref=e131]: Path forward. A proposed sequence of work if — and only if — there is one worth proposing.
+  - contentinfo [ref=e132]:
+    - generic [ref=e133]:
+      - generic [ref=e134]:
+        - generic [ref=e135]:
+          - img [ref=e136]
+          - generic [ref=e139]: Next Command AI Consulting, LLC
+        - paragraph [ref=e140]: Secure AI, cybersecurity & technology modernization — for the missions that matter.
+      - generic [ref=e141]:
+        - paragraph [ref=e142]: Site
+        - list [ref=e143]:
+          - listitem [ref=e144]:
+            - link "Capabilities" [ref=e145] [cursor=pointer]:
+              - /url: "#capabilities"
+          - listitem [ref=e146]:
+            - link "Who We Serve" [ref=e147] [cursor=pointer]:
+              - /url: "#served"
+          - listitem [ref=e148]:
+            - link "Approach" [ref=e149] [cursor=pointer]:
+              - /url: "#approach"
+          - listitem [ref=e150]:
+            - link "Contact" [ref=e151] [cursor=pointer]:
+              - /url: "#contact"
+      - generic [ref=e152]:
+        - paragraph [ref=e153]: Office of Record
+        - generic [ref=e154]:
+          - generic [ref=e155]: United States
+          - link "contact@nextcommandai.com" [ref=e156] [cursor=pointer]:
+            - /url: mailto:contact@nextcommandai.com
+    - generic [ref=e157]:
+      - generic [ref=e158]: © 2026 Next Command AI Consulting, LLC. All rights reserved.
+      - generic [ref=e159]: Veteran-Owned · United States
+  - alert [ref=e160]
