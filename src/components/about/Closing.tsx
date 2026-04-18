@@ -3,7 +3,6 @@ import Reveal from "@/components/site/Reveal";
 export default function Closing() {
   return (
     <section className="relative overflow-hidden bg-ink px-6 py-28 md:px-10 md:py-40">
-      <div className="pointer-events-none absolute inset-y-0 left-1/2 -z-0 w-px -translate-x-1/2 bg-gradient-to-b from-transparent via-hairline-strong to-transparent" />
       <div className="relative mx-auto max-w-[1100px] text-center">
         <Reveal>
           <p className="eyebrow">Ethos</p>
