@@ -21,8 +21,6 @@ export default function Approach() {
       id="approach"
       className="relative overflow-hidden bg-ink px-6 py-28 md:px-10 md:py-44"
     >
-      <div className="pointer-events-none absolute inset-y-0 left-1/2 -z-0 w-px -translate-x-1/2 bg-gradient-to-b from-transparent via-hairline-strong to-transparent" />
-
       <div className="mx-auto max-w-[1100px] text-center">
         <Reveal>
           <p className="eyebrow">Our Approach</p>
