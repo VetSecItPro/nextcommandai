@@ -21,7 +21,7 @@ export default function Hero() {
       </div>
       <div className="grain pointer-events-none absolute inset-0 -z-0" />
 
-      <div className="mx-auto w-full max-w-[1400px] px-6 pb-20 pt-40 md:px-10 md:pb-28 md:pt-48">
+      <div className="mx-auto w-full max-w-[1400px] px-6 pb-16 pt-28 sm:pt-32 md:px-10 md:pb-28 md:pt-48">
         <div className="max-w-3xl">
           <Reveal>
             <p className="eyebrow">Next Command AI Consulting, LLC</p>

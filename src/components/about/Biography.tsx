@@ -19,7 +19,7 @@ export default function Biography() {
           </p>
         </Reveal>
 
-        <div className="space-y-8 text-[1.02rem] leading-[1.85] text-parchment-dim md:space-y-10 md:text-[1.08rem]">
+        <div className="max-w-[65ch] space-y-8 text-[1.02rem] leading-[1.85] text-parchment-dim [text-wrap:pretty] md:space-y-10 md:text-[1.08rem]">
           {paragraphs.map((p, i) => (
             <Reveal key={i} delay={i * 90} as="p">
               <span

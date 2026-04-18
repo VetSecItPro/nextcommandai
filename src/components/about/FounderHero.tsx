@@ -8,11 +8,13 @@ export default function FounderHero() {
         <Reveal>
           <p className="eyebrow">Founder &amp; CEO</p>
           <div className="hairline rule-draw mt-4 w-16" />
-          <h1 className="font-display mt-8 text-[2.6rem] font-light leading-[1.02] text-parchment sm:text-[3.4rem] md:text-[4.4rem]">
-            Dr. Cornelia{" "}
-            <em className="italic text-brass">&ldquo;Lia&rdquo;</em>{" "}
+          <h1 className="font-display mt-8 text-[2.4rem] font-light leading-[1.05] text-parchment [text-wrap:balance] sm:text-[3.4rem] sm:leading-[1.02] md:text-[4.4rem]">
+            <span className="whitespace-nowrap">Dr. Cornelia</span>{" "}
+            <em className="whitespace-nowrap italic text-brass">
+              &ldquo;Lia&rdquo;
+            </em>{" "}
             <br className="hidden sm:block" />
-            Murphy-House
+            <span className="whitespace-nowrap">Murphy-House</span>
           </h1>
           <p className="mt-8 max-w-xl text-[1rem] leading-[1.8] text-parchment-dim md:text-[1.08rem]">
             U.S. Army Veteran &middot; Executive Leader &middot; Cybersecurity
