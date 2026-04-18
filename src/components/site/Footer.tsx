@@ -47,12 +47,15 @@ export default function Footer() {
           <div className="hairline rule-draw mt-3 w-10" />
           <address className="mt-6 space-y-1 text-[0.95rem] not-italic leading-[1.7] text-parchment-dim">
             <div className="py-1">United States</div>
-            <a
-              href="mailto:contact@nextcommandai.com"
-              className="inline-flex min-h-[44px] items-center py-2 transition-colors hover:text-brass"
+            <p className="py-1 text-parchment-faint">
+              Inquiries by briefing request.
+            </p>
+            <Link
+              href="/#contact"
+              className="mt-2 inline-flex min-h-[44px] items-center gap-3 border border-hairline-strong px-4 text-[0.72rem] uppercase tracking-[0.22em] text-parchment transition-colors hover:border-brass hover:text-brass"
             >
-              contact@nextcommandai.com
-            </a>
+              Request a Briefing <span aria-hidden>&rarr;</span>
+            </Link>
           </address>
         </div>
       </div>
