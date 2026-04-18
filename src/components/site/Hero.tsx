@@ -48,7 +48,7 @@ export default function Hero() {
             <div className="mt-10 flex flex-wrap items-center gap-5">
               <a
                 href="#contact"
-                className="group relative inline-flex items-center gap-3 bg-brass px-7 py-4 text-[0.78rem] uppercase tracking-[0.22em] text-ink transition-colors hover:bg-parchment"
+                className="group relative inline-flex min-h-[52px] items-center gap-3 bg-brass px-7 py-4 text-[0.78rem] uppercase tracking-[0.22em] text-ink transition-colors hover:bg-parchment"
               >
                 Request a Briefing
                 <span
@@ -60,7 +60,7 @@ export default function Hero() {
               </a>
               <a
                 href="#capabilities"
-                className="group inline-flex items-center gap-3 text-[0.78rem] uppercase tracking-[0.22em] text-parchment transition-colors hover:text-brass"
+                className="group inline-flex min-h-[44px] items-center gap-3 py-3 text-[0.78rem] uppercase tracking-[0.22em] text-parchment transition-colors hover:text-brass"
               >
                 Our Capabilities
                 <span className="h-px w-10 bg-hairline-strong transition-[width,background] group-hover:w-16 group-hover:bg-brass" />
