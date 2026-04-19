@@ -54,3 +54,4 @@ next-env.d.ts
 .design-reports/
 .security-reports/
 .a11y/
+.perf/
