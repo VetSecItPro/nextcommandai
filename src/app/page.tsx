@@ -3,6 +3,7 @@ import {
   Capabilities,
   Clients,
   Contact,
+  CredentialMarquee,
   Footer,
   Hero,
   Nav,
@@ -14,6 +15,7 @@ export default function Home() {
       <Nav />
       <main id="main-content" tabIndex={-1} className="flex-1 focus:outline-none">
         <Hero />
+        <CredentialMarquee />
         <Capabilities />
         <Clients />
         <Approach />
