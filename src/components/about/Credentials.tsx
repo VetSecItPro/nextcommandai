@@ -16,10 +16,10 @@ const certifications = [
 ];
 
 const service = [
-  "Board Leadership \u2014 AUSA, MG John C. Fremont Chapter, Las Vegas",
-  "Interviewer \u2014 Operation Homefront",
-  "State of Nevada DFree Coordinator \u2014 Zeta Phi Beta Sorority, Incorporated",
-  "State Coordinator for Women Who Win \u2014 Zeta Phi Beta Sorority, Incorporated",
+  "Board Leadership, AUSA MG John C. Fremont Chapter (Las Vegas)",
+  "Interviewer, Operation Homefront",
+  "State of Nevada DFree Coordinator, Zeta Phi Beta Sorority, Incorporated",
+  "State Coordinator for Women Who Win, Zeta Phi Beta Sorority, Incorporated",
 ];
 
 const honors = [
@@ -51,12 +51,11 @@ export default function Credentials() {
     <section className="relative bg-ink-2 px-6 py-24 md:px-10 md:py-32">
       <div className="mx-auto max-w-[1400px]">
         <Reveal>
-          <p className="eyebrow">Record</p>
-          <div className="hairline rule-draw mt-4 w-16" />
-          <h2 className="font-display mt-8 max-w-3xl text-[2rem] font-light leading-[1.08] text-parchment sm:text-[2.4rem] md:text-[3rem]">
+          <h2 className="font-display max-w-3xl text-[2rem] font-light leading-[1.08] text-parchment sm:text-[2.4rem] md:text-[3rem]">
             A record of <em className="italic text-brass">service</em>,
             credential, and recognition.
           </h2>
+          <div className="hairline rule-draw mt-6 w-16" />
         </Reveal>
 
         <div className="mt-16 grid gap-px bg-hairline md:mt-20 md:grid-cols-2 xl:grid-cols-4">
