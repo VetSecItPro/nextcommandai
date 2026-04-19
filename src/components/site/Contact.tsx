@@ -5,7 +5,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="relative overflow-hidden bg-ink-2 px-6 py-28 md:px-10 md:py-44"
+      className="relative overflow-hidden bg-ink-2 px-6 py-14 md:px-10 md:py-22"
     >
       <div className="pointer-events-none absolute inset-0 -z-0 opacity-[0.06]">
         <svg
@@ -31,8 +31,8 @@ export default function Contact() {
           </h2>
           <p className="mt-8 max-w-lg leading-[1.75] text-parchment-dim">
             Share the outline of the mission. We will respond with a short,
-            written read on what we believe a credible path looks like &mdash;
-            and whether we are the right partner to walk it with you.
+            written read on what we believe a credible path looks like, and
+            whether we are the right partner to walk it with you.
           </p>
 
           <div className="mt-12 space-y-6">

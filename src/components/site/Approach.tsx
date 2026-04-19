@@ -7,7 +7,7 @@ const tenets = [
   },
   {
     label: "Command-Grade Rigor",
-    body: "Clarity of intent, discipline of execution, honesty in reporting — the standards a commander expects of a staff.",
+    body: "Clarity of intent, discipline of execution, honesty in reporting: the standards a commander expects of a staff.",
   },
   {
     label: "Quiet Delivery",
@@ -19,7 +19,7 @@ export default function Approach() {
   return (
     <section
       id="approach"
-      className="relative overflow-hidden bg-ink px-6 py-28 md:px-10 md:py-44"
+      className="relative overflow-hidden bg-ink px-6 py-14 md:px-10 md:py-22"
     >
       <div className="mx-auto max-w-[1100px] text-center">
         <Reveal>

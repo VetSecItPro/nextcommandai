@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <section
       id="top"
-      className="relative isolate flex min-h-[100svh] items-end overflow-hidden"
+      className="relative isolate flex min-h-[88svh] items-center overflow-hidden"
     >
       <div className="absolute inset-0 -z-10">
         <Image
@@ -21,13 +21,10 @@ export default function Hero() {
       </div>
       <div className="grain pointer-events-none absolute inset-0 -z-0" />
 
-      <div className="mx-auto w-full max-w-[1400px] px-6 pb-16 pt-28 sm:pt-32 md:px-10 md:pb-28 md:pt-48">
+      <div className="mx-auto w-full max-w-[1400px] px-6 pb-10 pt-24 sm:pt-28 md:px-10 md:pb-14 md:pt-32">
         <div className="max-w-3xl">
           <Reveal>
-            <p className="eyebrow">Next Command AI Consulting, LLC</p>
-          </Reveal>
-          <Reveal delay={140}>
-            <h1 className="font-display mt-6 text-[2.4rem] font-light leading-[1.05] text-parchment sm:text-[3.4rem] md:text-[4.4rem] lg:text-[5.2rem]">
+            <h1 className="font-display text-[2.4rem] font-light leading-[1.05] text-parchment sm:text-[3.4rem] md:text-[4.4rem] lg:text-[5.2rem]">
               Secure <em className="italic text-brass">AI</em>,
               <br className="hidden sm:block" /> Cybersecurity &amp;{" "}
               <br className="hidden sm:block" />

@@ -7,8 +7,8 @@ import Monogram from "./Monogram";
 const links = [
   { href: "/#capabilities", label: "Capabilities" },
   { href: "/#served", label: "Who We Serve" },
-  { href: "/about", label: "Founder" },
   { href: "/#approach", label: "Approach" },
+  { href: "/about", label: "Founder" },
 ];
 
 export default function Nav() {

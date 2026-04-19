@@ -78,6 +78,22 @@ body {
     0 0 0 4px var(--brass);
 }
 
+.founder-fade {
+  --fade: radial-gradient(
+    ellipse closest-side at 50% 50%,
+    #000 45%,
+    rgba(0, 0, 0, 0.82) 68%,
+    rgba(0, 0, 0, 0.3) 88%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  -webkit-mask-image: var(--fade);
+  mask-image: var(--fade);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+}
+
 ::selection {
   background: var(--brass);
   color: var(--ink);

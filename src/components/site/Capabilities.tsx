@@ -12,13 +12,13 @@ const capabilities: Capability[] = [
     index: "01",
     name: "Secure AI",
     title: "AI strategy with operational discipline.",
-    body: "We help leaders adopt artificial intelligence without surrendering control — from mission framing and model selection to governance, safety review, and the guardrails required for classified and regulated environments.",
+    body: "We help leaders adopt artificial intelligence without surrendering control: from mission framing and model selection to governance, safety review, and the guardrails required for classified and regulated environments.",
   },
   {
     index: "02",
     name: "Cybersecurity",
     title: "Posture hardened for adversaries, not checklists.",
-    body: "Threat-informed architecture, zero-trust implementation, continuous monitoring, and incident response — engineered for organizations whose adversaries are deliberate, well-resourced, and patient.",
+    body: "Threat-informed architecture, zero-trust implementation, continuous monitoring, and incident response, engineered for organizations whose adversaries are deliberate, well-resourced, and patient.",
   },
   {
     index: "03",
@@ -32,18 +32,21 @@ export default function Capabilities() {
   return (
     <section
       id="capabilities"
-      className="relative overflow-hidden bg-ink px-6 py-28 md:px-10 md:py-40"
+      className="relative overflow-hidden bg-ink px-6 py-14 md:px-10 md:py-20"
     >
-      <div className="mx-auto grid max-w-[1400px] gap-20 md:grid-cols-[340px_1fr] md:gap-28">
+      <div className="mx-auto grid max-w-[1400px] gap-20 md:grid-cols-[420px_1fr] md:gap-20">
         <Reveal className="md:sticky md:top-28 md:self-start">
           <p className="eyebrow">Capabilities</p>
           <div className="hairline rule-draw mt-4 w-16" />
           <h2 className="font-display mt-8 text-[2rem] font-light leading-[1.1] text-parchment sm:text-[2.4rem] md:text-[2.8rem]">
-            Three disciplines, <em className="italic text-brass">one</em>{" "}
-            command.
+            <span className="whitespace-nowrap">Three disciplines.</span>
+            <br />
+            <span className="whitespace-nowrap">
+              <em className="italic text-brass">One</em> command.
+            </span>
           </h2>
           <p className="mt-6 max-w-sm text-parchment-dim">
-            Every engagement is authored for the shape of the mission — not
+            Every engagement is authored for the shape of the mission, not
             assembled from templates.
           </p>
         </Reveal>

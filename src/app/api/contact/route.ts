@@ -42,7 +42,7 @@ async function sendBriefingEmail(submission: Submission) {
   const from = process.env.CONTACT_FROM_EMAIL;
   if (!apiKey || !to || !from) {
     console.warn(
-      "[contact] Resend not configured — logging only",
+      "[contact] Resend not configured, logging only",
       submission,
     );
     return { sent: false, reason: "not_configured" };
@@ -77,7 +77,7 @@ async function sendBriefingEmail(submission: Submission) {
   </body></html>`;
 
   const text = [
-    `New briefing request — Next Command AI Consulting`,
+    `New briefing request. Next Command AI Consulting`,
     ``,
     `Name:         ${submission.fullName}`,
     `Email:        ${submission.email}`,
@@ -86,7 +86,7 @@ async function sendBriefingEmail(submission: Submission) {
     ``,
     submission.mission ? `Mission:\n${submission.mission}` : null,
     ``,
-    `Received: ${submission.receivedAt} — ${submission.ip}`,
+    `Received: ${submission.receivedAt} from ${submission.ip}`,
   ]
     .filter(Boolean)
     .join("\n");
