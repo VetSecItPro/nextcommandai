@@ -16,7 +16,7 @@ const capabilities: Capability[] = [
   },
   {
     index: "02",
-    name: "Cybersecurity",
+    name: "Cybersecurity Advisory",
     title: "Posture hardened for adversaries, not checklists.",
     body: "Threat-informed architecture, zero-trust implementation, continuous monitoring, and incident response, engineered for organizations whose adversaries are deliberate, well-resourced, and patient.",
   },
