@@ -3,8 +3,8 @@ import Reveal from "@/components/site/Reveal";
 
 export default function FounderHero() {
   return (
-    <section className="relative overflow-hidden bg-ink pt-32 pb-20 md:pt-44 md:pb-28">
-      <div className="mx-auto grid max-w-[1400px] gap-14 px-6 md:grid-cols-[1.05fr_1fr] md:items-end md:gap-20 md:px-10">
+    <section className="relative overflow-hidden bg-ink pt-28 pb-16 md:pt-36 md:pb-20">
+      <div className="mx-auto grid max-w-[1400px] gap-10 px-6 md:grid-cols-[1fr_340px] md:items-end md:gap-0 md:px-10">
         <Reveal>
           <p className="eyebrow">Founder &amp; CEO</p>
           <div className="hairline rule-draw mt-4 w-16" />
@@ -24,16 +24,16 @@ export default function FounderHero() {
         </Reveal>
 
         <Reveal delay={180}>
-          <figure className="relative aspect-[4/5] w-full overflow-hidden border border-hairline-strong bg-ink-2">
+          <figure className="founder-fade relative mx-auto aspect-[4/5] w-full max-w-[280px] overflow-visible sm:max-w-[320px] md:mx-0 md:-ml-24 md:max-w-[340px] lg:-ml-[151px]">
             <Image
               src="/founder.jpg"
               alt="Dr. Cornelia ‘Lia’ Murphy-House"
               fill
               priority
-              sizes="(min-width: 768px) 560px, 100vw"
+              sizes="(min-width: 1024px) 340px, (min-width: 768px) 340px, (min-width: 640px) 320px, 280px"
+              quality={95}
               className="object-cover"
             />
-            <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-ink/60 via-transparent to-transparent" />
           </figure>
         </Reveal>
       </div>

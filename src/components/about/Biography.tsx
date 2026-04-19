@@ -12,11 +12,10 @@ export default function Biography() {
     <section className="relative bg-ink px-6 py-20 md:px-10 md:py-32">
       <div className="mx-auto grid max-w-[1400px] gap-16 md:grid-cols-[260px_1fr] md:gap-24">
         <Reveal className="md:sticky md:top-32 md:self-start">
-          <p className="eyebrow">Biography</p>
-          <div className="hairline rule-draw mt-4 w-12" />
-          <p className="font-display mt-8 text-[1.3rem] font-light italic leading-[1.3] text-parchment md:text-[1.5rem]">
+          <p className="font-display text-[1.3rem] font-light italic leading-[1.3] text-parchment md:text-[1.5rem]">
             Faith. Resilience. Service. Transformational Leadership.
           </p>
+          <div className="hairline rule-draw mt-6 w-12" />
         </Reveal>
 
         <div className="max-w-[65ch] space-y-8 text-[1.02rem] leading-[1.85] text-parchment-dim [text-wrap:pretty] md:space-y-10 md:text-[1.08rem]">
