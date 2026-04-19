@@ -16,8 +16,15 @@ const inter = Inter({
   display: "swap",
 });
 
+export const viewport = {
+  themeColor: "#0a0907",
+  colorScheme: "dark" as const,
+};
+
 export const metadata: Metadata = {
   metadataBase: new URL("https://nextcommandai.com"),
+  applicationName: "Next Command AI",
+  manifest: "/manifest.webmanifest",
   title:
     "Next Command AI Consulting | Secure AI, Cybersecurity & Technology Modernization",
   description:
