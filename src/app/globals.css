@@ -78,6 +78,43 @@ body {
     0 0 0 4px var(--brass);
 }
 
+@keyframes marquee-scroll {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-33.3333%, 0, 0);
+  }
+}
+
+.marquee-wrapper {
+  --edge-fade: linear-gradient(
+    to right,
+    transparent 0,
+    #000 8%,
+    #000 92%,
+    transparent 100%
+  );
+  -webkit-mask-image: var(--edge-fade);
+  mask-image: var(--edge-fade);
+}
+
+.marquee-track {
+  animation: marquee-scroll 42s linear infinite;
+  will-change: transform;
+}
+
+.marquee-wrapper:hover .marquee-track,
+.marquee-wrapper:focus-within .marquee-track {
+  animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee-track {
+    animation: none;
+  }
+}
+
 .founder-fade {
   --fade: radial-gradient(
     ellipse closest-side at 50% 50%,
