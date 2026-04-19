@@ -1,11 +1,11 @@
 const items: { label: string; value?: string }[] = [
   { label: "UEI", value: "SBZNFKA3ZPD8" },
+  { label: "UEI Verified" },
   { label: "CAGE", value: "18XN2" },
-  { label: "Texas VetHub" },
+  { label: "CAGE Code Active" },
+  { label: "Texas VetHub Approved" },
   { label: "SDVOSB" },
   { label: "SAM Registered" },
-  { label: "UEI Verified" },
-  { label: "CAGE Code Active" },
   { label: "Texas-Based" },
   { label: "Nationwide Support" },
 ];
