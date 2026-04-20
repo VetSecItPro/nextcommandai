@@ -55,3 +55,24 @@ next-env.d.ts
 .security-reports/
 .a11y/
 .perf/
+
+# Strategic / internal / planning docs — never on GitHub.
+CLAUDE.md
+AGENTS.md
+LESSONS-LEARNED.md
+*-plan.md
+*-research.md
+*-strategy.md
+*-todo.md
+*-enhance*.md
+*-requirements*.md
+*-description*.md
+*-journey.md
+*-architecture.md
+*-orders.md
+*-mdmp*.md
+*-audit*.md
+.mdmp/
+.knowledge/
+.claude/audits/
+memory/
